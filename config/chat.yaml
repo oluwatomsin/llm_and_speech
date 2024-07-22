@@ -1,0 +1,5 @@
+open_ai_services:
+  OPEN_AI_URL: "https://api.openai.com/v1/chat/completions"
+  OPEN_AI_API_KEY: "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"
+  MODEL_ID: "gpt-4o"
+  STREAM: True

@@ -1,0 +1,6 @@
+speech_services:
+  AUDIO_SYNTHESIS_URL: "https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM"
+  xi-api-key : $ELEVEN_LABS_TOKEN
+  voice_id : $VOICE_ID
+  CHUNK_SIZE : 1024
+  model_id : eleven_monolingual_v1

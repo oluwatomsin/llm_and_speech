@@ -1,0 +1,29 @@
+# configuration example
+microservices:  # an object
+  app: UserAuth
+  port: 5000
+  active: true  # boolean yes|no true|false on|off
+
+# Using list
+microservices_list:  # an object
+  - app: UserAuth
+  - port: 5000
+  - active: true
+
+
+microservices_list_2: [UserAuth, 5000, true ] # can be used of you have simple data types and not objects
+
+# multiline strings
+strings: |
+  This multiline string is similar to how formatted
+  strings work in python as the formatting is in the
+  exact form in which I write it here.
+
+strings_2: >
+  But in this case, it is treated as a single line
+  object even if it is written in multiple lines
+
+# Using environment variables
+token: $ELEVEN_LABS_TOKEN
+
+# Placeholders too.
