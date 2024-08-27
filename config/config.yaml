@@ -1,0 +1,13 @@
+chat_services:
+  openai:
+    url: https://api.openai.com/v1/chat/completions
+    openai_api_key: $OPENAI_API_KEY
+    model_id: "gpt-4o"
+
+audio_services:
+  eleven_labs:
+    url: https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM
+    xi-api-key: $xi-api-key
+    model_id: eleven_multilingual_v2
+    CHUNK_SIZE: 1024
+    voice_id: 21m00Tcm4TlvDq8ikWAM

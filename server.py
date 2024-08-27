@@ -1,4 +1,12 @@
-from envyaml import EnvYAML
+from dotenv import load_dotenv
+from engine.audio_synthesis import get_audio
+from engine.chat_utils import get_response
+import os
 
-config_example = EnvYAML('config/examples.yml')
-print(config_example['token'])
+
+load_dotenv()
+# Using OpenAI GPT4o
+
+
+text = get_response(message="")
+get_audio(text=text)

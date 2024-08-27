@@ -1,3 +1,7 @@
 streamlit
 langchain
 envyaml
+openai
+python-dotenv
+langchain_community
+langchain-openai

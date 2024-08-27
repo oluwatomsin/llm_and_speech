@@ -1,0 +1,23 @@
+2024-08-14 12:12:02,931 Starting new HTTPS connection (1): api.elevenlabs.io:443
+2024-08-14 12:12:04,517 https://api.elevenlabs.io:443 "POST /v1/text-to-speech/21m00Tcm4TlvDq8ikWAM HTTP/11" 200 30929
+2024-08-14 12:12:04,617 Connected to server after 0 attempt(s)
+2024-08-14 12:12:04,626 Generated audio has been saved as audio.mp3.
+2024-08-14 12:12:20,922 Starting new HTTPS connection (1): api.elevenlabs.io:443
+2024-08-14 12:12:22,569 https://api.elevenlabs.io:443 "POST /v1/text-to-speech/21m00Tcm4TlvDq8ikWAM HTTP/11" 200 28839
+2024-08-14 12:12:22,876 Connected to server after 0 attempt(s)
+2024-08-14 12:12:22,888 Generated audio has been saved as audio.mp3.
+2024-08-14 12:19:28,265 Error occurred while connecting:
+ name 'eleven_labs_config' is not defined 
+ Retrying...
+2024-08-14 12:19:30,272 Error occurred while connecting:
+ name 'eleven_labs_config' is not defined 
+ Retrying...
+2024-08-14 12:19:32,276 Error occurred while connecting:
+ name 'eleven_labs_config' is not defined 
+ Retrying...
+2024-08-14 12:19:34,277 Connection to the server could not be established.
+2024-08-14 12:19:34,277 Error occurred while saving generated audio to memory
+2024-08-14 12:20:42,788 Starting new HTTPS connection (1): api.elevenlabs.io:443
+2024-08-14 12:20:44,820 https://api.elevenlabs.io:443 "POST /v1/text-to-speech/21m00Tcm4TlvDq8ikWAM HTTP/11" 200 28003
+2024-08-14 12:20:44,838 Connected to server after 0 attempt(s)
+2024-08-14 12:20:44,840 Generated audio has been saved as audio.mp3.

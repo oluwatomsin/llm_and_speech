@@ -1,0 +1,8 @@
+# Major
+Swap out the chat class with langchain
+Integrating the yaml files. <DONE>
+
+# Minor
+Proper error handling   <DONE>
+Logging in case of error that occurs <DONE>
+Add 2 retry to the connection to the API.  <DONE>
