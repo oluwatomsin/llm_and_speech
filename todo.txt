@@ -1,8 +1,12 @@
 # Major
-Swap out the chat class with langchain
+Swap out the chat class with langchain <DONE>
 Integrating the yaml files. <DONE>
+Create an updated function so that can support file upload.  <DONE>
+Create the Streamlit front end with 2 to 3 pages:
+    - One for basic paste and get response from model
+    - One for txt file upload and get response.
 
 # Minor
 Proper error handling   <DONE>
-Logging in case of error that occurs <DONE>
+Logging in case of error that occurs <DONE> <BUG> <FIXED>
 Add 2 retry to the connection to the API.  <DONE>
