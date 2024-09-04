@@ -6,18 +6,8 @@ This utils.py script is dedicated to all utilities needed withing our applicatio
 import time
 import logging
 
-
-import os
-
-log_file = 'logs/newfile.log'
-
-# Check if the log file exists, if not create it
-if not os.path.exists(log_file):
-    with open(log_file, 'w') as f:
-        f.write('')  # Create an empty log file
-
 # Create and configure logger
-logging.basicConfig(filename=log_file,
+logging.basicConfig(filename="logs/newfile.log",
                     format='%(asctime)s - %(filename)s - %(message)s',
                     filemode='a')
 
