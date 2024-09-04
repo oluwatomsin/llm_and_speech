@@ -28,7 +28,8 @@ st.markdown('# Summarization Tabs')
 tab1, tab2 = st.tabs(["text_summary", "file_summary"])
 
 with tab1:
-    input_text = st.text_area('Kindly paste the text you want to summarize here.')
+    input_text = st.text_area('Kindly paste the text you want to summarize here. :NB The provided text must be between '
+                              '100 to 10000 character long.')
 
     if st.button('Generate Summary', key='001'):
         if len(input_text) < 100 or len(input_text) > 10000 or input_text is None:
