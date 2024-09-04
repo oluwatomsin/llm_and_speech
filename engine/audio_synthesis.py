@@ -11,7 +11,7 @@ dotenv.load_dotenv()
 eleven_labs_config = EnvYAML('config/config.yaml').get('audio_services.eleven_labs')
 
 
-@save_to_memory(audio_name="final_audio.mp3", chunk_size=eleven_labs_config.get('CHUNK_SIZE'))
+@save_to_memory(audio_name="audios/final_audio.mp3", chunk_size=eleven_labs_config.get('CHUNK_SIZE'))
 @retry_on_failure(max_retries=3, delay=2)
 def get_audio(text: str):
     """
